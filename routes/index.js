@@ -8,6 +8,7 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Quiz' });
 });
 
+<<<<<<< HEAD
 router.get('/author', function(req, res) {
   res.render('author', 
   {
@@ -16,6 +17,8 @@ router.get('/author', function(req, res) {
   });
 });
 
+=======
+>>>>>>> 274963a1d4e0007e4191c19a73f145856dc9fb2d
 router.get('/quizes/question', quizController.question);
 router.get('/quizes/answer', quizController.answer);
 
